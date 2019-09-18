@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+.header {
+	width: auto;
+	height: 20vh;
+	background-color: #99DDCC;
+	text-align: center;
+	align-self: auto;
+}
+
+.header h1 {
+	color: #FFF;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-decoration: underline overline dotted #FA91A7;
+	text-shadow: 3px 3px 3px #FA91A7;
+}
+
+.container {
+	background-color: #e2fff7;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border: #D9E540 solid 4px;
+}
+
+.container__icon i {
+	color: #FA91A7;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.container__icon i.animate {
+	animation: explosion 1s;
+}
+
+/* fotogramas claves de la animacion, se refieren al momento en que hay un cambio en la animacion */
+@keyframes explosion {
+	to {
+		text-shadow: 75px 0px,142.65848px 46.35255px,60.67627px 44.08389px,88.16779px 121.35255px,23.17627px 71.32924px,0.0px 150px,-23.17627px 71.32924px,-88.16779px 121.35255px,-60.67627px 44.08389px,-142.65848px 46.35255px,-75.0px 0.0px,-142.65848px -46.35255px,-60.67627px -44.08389px,-88.16778px -121.35255px,-23.17627px -71.32924px,0.00008px -149.99998px,23.17645px -71.3292px,88.16908px -121.35225px,60.67853px -44.08334px,142.67319px -46.34871px,75.02259px 0.00621px;
+		color: #D86280;
+	}
+}
+
+.footer {
+	width: auto;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	background-color: #D9E540;
+	border-top: #D9E540 solid 2px;
+	border-bottom: #D9E540 solid 2px;
+}
+
+.footer h4 {
+	font-size: 15px;
+	letter-spacing: 10px;
+	text-shadow: 2px 2px 2px #FA91A7;
+}
+
+.footer h5 {
+	font-size: 12px;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 2px #FA91A7;
+}
+
+/* SASS preprocessed with: http://beautifytools.com/scss-compiler.php */
+
+/*# sourceMappingURL=styles.css.map */
